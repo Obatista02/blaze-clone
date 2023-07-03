@@ -1,0 +1,157 @@
+.button-lateral {
+  align-items: center;
+  background-color: #F12C4C;
+  border-radius: .4rem;
+  cursor: pointer;
+  display: flex;
+  height: 4.2rem;
+  justify-content: center;
+  width: 20rem;
+}
+
+.button-lateral:hover {
+  background-color: #0F1923;
+  border: .1rem solid #37404A;
+  transition: .5;
+}
+
+.button {
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+
+}
+
+.fa-hand-holding-dollar {
+  color: #D0CEB3;
+}
+
+/* tudo acima é o botao */
+
+.menu-lateral {
+  border-right: .1rem solid #37404A;
+  height: 100%;
+  left: 0;
+  padding: 3rem 3rem 0 1%;
+  position: fixed;
+  top: 7rem;
+  width: 24.5rem;
+  transition: .5s;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  visibility: hidden;
+}
+
+nav.menu-lateral.expandir {
+  width: 7rem;
+}
+
+.menu {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+
+}
+
+.titulo-menu-lateral {
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding-bottom: 2.6rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+  width: 100%;
+  padding-top: 2.4rem;
+}
+
+.border-separa {
+  border-bottom: .1rem solid #37404A;
+  position: relative;
+  right: 1.9rem;
+  width: 24.4rem;
+  cursor: pointer;
+
+}
+
+
+.titulo-menu-lateral i {
+  position: absolute;
+  right: 3rem;
+}
+
+.menu-item {
+  height: 2.4rem;
+  margin-bottom: 1.6rem;
+  width: 18.3rem;
+}
+
+.link-menu {
+  color: #91949D;
+}
+
+.link-menu:hover {
+  color: #fff;
+}
+
+.txt-icon-menu {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+}
+
+/* details subtitulos */
+.cor {
+  position: relative;
+  right: 2rem;
+  color: #fff;
+}
+
+/* PATROCINIOS */
+.temas-lateral {
+  margin-top: 2rem;
+}
+
+.temas {
+  border-radius: .4rem;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding: 1rem;
+  position: relative;
+  right: 1rem;
+}
+
+.temas i {
+  position: absolute;
+  right: 0;
+}
+
+.temas:hover {
+  background-color: #37404A;
+}
+
+.temas-link {
+  color: #fff;
+}
+
+
+.patrocinio-item {
+  border-radius: .4rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  margin-bottom: .5rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.patrocinio-item:hover {
+  background-color: #37404A;
+}
+
+.icon-patrocinio {
+  position: relative;
+  right: 1rem;
+}

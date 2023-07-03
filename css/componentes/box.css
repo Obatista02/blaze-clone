@@ -1,0 +1,45 @@
+.banner-box {
+  position: absolute;
+  margin-left: 5.5rem;
+  margin-top: 5rem;
+}
+
+.banner-box {
+  position: absolute;
+  inset: 0;
+}
+
+.box-title {
+  color: #fff;
+  font-size: 2.7rem;
+  font-weight: 700;
+  padding-bottom: 1.1rem;
+  text-transform: capitalize;
+}
+
+.box-subtitle {
+  color: #fff;
+  padding-top: 1.1rem;
+  text-transform: capitalize;
+  font-size: 1.7rem;
+}
+
+.box-link {
+  background-color: #F12C4C;
+  border-radius: .4rem;
+  color: #fff;
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 4.7rem;
+  margin-top: 4rem;
+  padding-left: 1.6rem;
+  padding-top: 1.7rem;
+  text-transform: capitalize;
+  transition: .5s;
+  width: 9rem;
+}
+
+.box-link:hover {
+  background-color: #DC2644;
+}

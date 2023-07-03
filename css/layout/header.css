@@ -1,0 +1,197 @@
+.header {
+  align-items: center;
+  border-bottom: .1rem solid #37404A;
+  display: flex;
+  height: 7rem;
+  justify-content: space-around;
+  padding-right: 17rem;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  right: 16rem;
+}
+
+.icon-resp {
+  background-color: #37404A;
+  background-size: 100%;
+  background-image: url('../../assets/nav/logo-icon.de8b3b08.svg') no-repeat;
+  cursor: pointer;
+}
+
+.link-icon {
+  background-color: #37404A;
+  background-position: center;
+  background-size: 100%;
+  background: url(../../assets/nav/logo-blaze.svg) no-repeat;
+  cursor: pointer;
+  display: inline-block;
+  height: 4rem;
+  width: 11.2rem;
+}
+
+
+.tres-barras {
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 1.8rem;
+  padding: 1.3rem;
+}
+
+.tres-barras:hover {
+  background-color: #37404A;
+}
+
+.header-lista-item {
+  align-items: center;
+  display: flex;
+}
+
+.lista-item-texto {
+  border-bottom: .4rem solid #353E4C;
+  color: #B0B4BD;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-right: 3rem;
+  padding-bottom: .9rem;
+}
+
+.lista-item-texto:hover {
+  color: #818790;
+}
+
+.fa-envelope {
+  margin-right: 1.8rem;
+}
+
+.fa-envelope,
+.fa-user {
+  width: 2.4rem;
+  color: #fff;
+}
+
+.lista-item-coin {
+  border-radius: .4rem;
+  border: .1rem solid #37404A;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-left: 3rem;
+  padding: 1.2rem 1.4rem;
+}
+
+.item-coin-detail {
+  position: relative;
+  margin-left: .2rem;
+  top: .3rem;
+}
+
+.item-texto-detail {
+  margin-left: 2rem;
+}
+
+.item-coin-detail {
+  width: 1.8rem;
+}
+
+.depositar {
+  padding: 1.2rem 1.4rem;
+  position: relative;
+  border-radius: .4rem;
+  font-weight: 700;
+  color: #FDDCE1;
+  background-color: #F12C4C;
+  text-transform: capitalize;
+  margin-left: 2.2rem;
+}
+
+.header-lateral {
+  position: relative;
+  right: 14rem;
+}
+
+.subtipo {
+  display: flex;
+}
+
+.subtipo-item-container,
+.subtipo-item-container-um {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 7rem;
+  justify-content: space-around;
+  transition: .5s;
+  width: 12rem;
+}
+
+.subtipo-item-container:hover {
+  border-bottom: .2rem solid #FF2E51;
+}
+
+.subtipo-item-container-um:hover {
+  border-bottom: .2rem solid #FF2E51;
+}
+
+.fa-chess-board:hover {
+  color: #fff;
+
+}
+
+.fa-basketball:hover {
+  color: #fff;
+}
+
+.subtipo-txt:hover {
+  color: #fff;
+}
+
+
+
+@media(max-width:1200px) {
+  .tres-barras {
+    display: none;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .logo {
+    right: 0rem;
+  }
+
+  .lista-item-texto {
+    display: none;
+  }
+
+  .icon-list-item .fa-envelope {
+    display: none;
+  }
+
+  .flex-grow {
+    flex-grow: 1;
+    order: 2;
+  }
+
+  .fa-user {
+    position: relative;
+    left: .5rem;
+  }
+
+  .icon-list-item {
+    padding: 1.3rem;
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+    border: .1rem solid #37404A;
+    border-radius: .4rem;
+  }
+
+  .subtipo {
+    display: none;
+  }
+
+}

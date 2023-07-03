@@ -1,0 +1,18 @@
+.controls-slider {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.controls-slider-item {
+  background: none;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 .8rem;
+  font-size: .9rem;
+}
+
+
+.controls-slider-item .active {
+  color: #fff;
+
+}

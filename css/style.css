@@ -1,0 +1,18 @@
+/* GLOBAL */
+@import url('../css/global.css');
+/* COMPONENTES */
+@import url('../css/componentes/controls.css');
+@import url('../css/componentes/box.css');
+
+/* LAYOUT */
+@import url('../css/layout/header.css');
+@import url('../css/layout/nav-menu.css');
+@import url('../css/layout/carousel.css');
+
+/* PAGES/ HOME */
+
+@import url('../css/pages/home/__banners.css');
+
+
+/* RESET */
+@import url('../css/reset/reset.css');

@@ -1,0 +1,22 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  margin-left: 22rem;
+}
+
+.banner-slide-item {
+  display: flex;
+  flex-shrink: 0;
+  position: relative;
+  width: 56vw;
+}
+
+.banner-slide-cover {
+  width: 100%;
+}
+
+.banner-slide .controls-slider {
+  bottom: 2rem;
+  right: 50rem;
+}

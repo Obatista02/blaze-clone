@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #0F1923;
+  color: #8C9099;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  height: 100vh;
+}
+
+.active {
+  background-color: #fff;
+  color: #fff;
+  
+}
