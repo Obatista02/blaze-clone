@@ -1,14 +1,12 @@
 .banner {
   display: flex;
-  justify-content: center;
-  margin-top: 7rem;
-  margin-left: 22rem;
+  position: absolute;
+  align-items: center;
+  left: 53rem;
+  top: 14rem;
 }
 
 .banner-slide-item {
-  display: flex;
-  flex-shrink: 0;
-  position: relative;
   width: 56vw;
 }
 
