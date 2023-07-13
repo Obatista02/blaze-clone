@@ -155,3 +155,9 @@ nav.menu-lateral.expandir {
   position: relative;
   right: 1rem;
 }
+
+@media (max-width:1400px) {
+  .menu-lateral {
+    display: none;
+  }
+}

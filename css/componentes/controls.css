@@ -1,7 +1,8 @@
 .controls-slider {
+  display: flex;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  bottom: 2rem;
+  left: 30rem;
 }
 
 .controls-slider-item {
@@ -14,5 +15,5 @@
 
 .controls-slider-item .active {
   color: #fff;
-
+  border-radius: 50%;
 }

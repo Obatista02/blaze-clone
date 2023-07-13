@@ -1,13 +1,14 @@
 .banner-box {
-  position: absolute;
+  position: fixed;
   margin-left: 5.5rem;
   margin-top: 5rem;
+
 }
 
-/* .banner-box {
+.banner-box {
   position: absolute;
   inset: 0;
-} */
+}
 
 .box-title {
   color: #fff;

@@ -10,8 +10,26 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  /* background-color: red; */
+  width: 55%;
+  max-width: 116rem;
+
+}
+
 .active {
   background-color: #fff;
   color: #fff;
-  
+
+}
+
+@media(max-width:2000px) {
+  main {
+    right: 33rem;
+  }
 }

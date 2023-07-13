@@ -1,0 +1,25 @@
+.main-subtipos-list {
+  margin-top: 2.5rem;
+  display: flex;
+  width: 78%;
+
+}
+
+.main-subtipos-list>button {
+  margin-right: 2rem;
+  background-color: #1A242D;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  flex-flow: row nowrap;
+}
+
+.item-main i {
+  padding-right: 1rem;
+}
+
+.buttonClicked {
+  background-color: #F12C4C !important;
+}

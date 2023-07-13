@@ -1,0 +1,40 @@
+.pesquisa {
+  align-items: center;
+  background-color: #1D2730;
+  border: .2rem solid #363F49;
+  border-radius: .4rem;
+  cursor: pointer;
+  display: flex;
+  height: 4rem;
+  margin-top: 4.6rem;
+  width: 99%;
+}
+
+.buscar {
+  color: #fff;
+  font-weight: 700;
+  background-color: transparent;
+  height: 100%;
+  padding-left: 4rem;
+  width: 100%;
+}
+
+#txtBusca {
+  background: url("../../assets/img/kisspng-magnifying-glass-computer-file-blue-magnifying-glass-5a6e2ff98906a9.3026407215171706815613.png") no-repeat left / 1.3em;
+  padding: 2em;
+}
+
+.fa-magnifying-glass {
+  left: 1rem;
+  position: absolute;
+}
+
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+input::placeholder {
+  color: #D0D4DC;
+}

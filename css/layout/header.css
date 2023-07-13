@@ -4,8 +4,10 @@
   border-bottom: .1rem solid #37404A;
   display: flex;
   height: 7rem;
-  justify-content: space-around;
-  padding-right: 17rem;
+
+  justify-content: space-evenly;
+  /* padding-right: 29.5rem; */
+  /* gap: 24rem; */
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -13,8 +15,7 @@
 
 .logo {
   display: flex;
-  position: relative;
-  right: 16rem;
+
 }
 
 .icon-resp {
@@ -50,6 +51,10 @@
 .header-lista-item {
   align-items: center;
   display: flex;
+}
+
+.lista-item {
+  cursor: pointer;
 }
 
 .lista-item-texto {
@@ -100,27 +105,32 @@
 }
 
 .depositar {
+  background-color: #F12C4C;
+  border-radius: .4rem;
+  color: #FDDCE1;
+  cursor: pointer;
+  font-weight: 700;
+  margin-left: 2.2rem;
   padding: 1.2rem 1.4rem;
   position: relative;
-  border-radius: .4rem;
-  font-weight: 700;
-  color: #FDDCE1;
-  background-color: #F12C4C;
   text-transform: capitalize;
-  margin-left: 2.2rem;
+  transition: .4s;
+}
+
+.depositar:hover {
+  background-color: #B6243B;
 }
 
 .header-lateral {
-  position: relative;
-  right: 14rem;
+  position: fixed;
+  left: 0;
 }
 
 .subtipo {
   display: flex;
 }
 
-.subtipo-item-container,
-.subtipo-item-container-um {
+.subtipo-item-container {
   align-items: center;
   cursor: pointer;
   display: flex;
@@ -128,15 +138,13 @@
   justify-content: space-around;
   transition: .5s;
   width: 12rem;
+  border-bottom: .2rem solid #37404A;
 }
 
 .subtipo-item-container:hover {
   border-bottom: .2rem solid #FF2E51;
 }
 
-.subtipo-item-container-um:hover {
-  border-bottom: .2rem solid #FF2E51;
-}
 
 .fa-chess-board:hover {
   color: #fff;
@@ -151,9 +159,13 @@
   color: #fff;
 }
 
+/* @media (max-width:2000px) {
+  .header-lateral {
+    right: 16.1rem;
+  }
+} */
 
-
-@media(max-width:1200px) {
+@media(max-width:1400px) {
   .tres-barras {
     display: none;
   }
@@ -193,6 +205,10 @@
   }
 
   .subtipo {
+    display: none;
+  }
+
+  .header-lateral {
     display: none;
   }
 

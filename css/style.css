@@ -3,11 +3,12 @@
 /* COMPONENTES */
 @import url('../css/componentes/controls.css');
 @import url('../css/componentes/box.css');
+@import url('../css/componentes/buscar.css');
+@import url('../css/componentes/subtipos.css');
 
 /* LAYOUT */
 @import url('../css/layout/header.css');
 @import url('../css/layout/nav-menu.css');
-@import url('../css/layout/carousel.css');
 
 /* PAGES/ HOME */
 
@@ -16,3 +17,9 @@
 
 /* RESET */
 @import url('../css/reset/reset.css');
+
+
+
+/* teste */
+
+@import url("../css/componentes/teste.css");
