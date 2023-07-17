@@ -7,7 +7,7 @@
   display: flex;
   height: 4rem;
   margin-top: 4.6rem;
-  width: 99%;
+  width: 100%;
 }
 
 .buscar {
@@ -15,7 +15,6 @@
   font-weight: 700;
   background-color: transparent;
   height: 100%;
-  padding-left: 4rem;
   width: 100%;
 }
 

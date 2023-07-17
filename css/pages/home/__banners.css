@@ -1,37 +1,47 @@
-.banner {
+.wrapper {
   display: flex;
-  position: relative;
-  width: 100%;
-  /* margin-left: 20rem; */
-  margin-top: 13rem;
-  transition: transform .5s ease-in-out;
-  transform: translateX(0);
-
 }
 
-.banner-slide {
+.carrosel {
+  margin-top: 14.4rem;
+  display: flex;
+  width: 1050px;
   overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  border-radius: 4px;
+
 }
 
-.banner-slide-item {
+.carrosel img {
+  height: 32rem;
   width: 100%;
-  display: flex;
-
-}
-
-.banner-slide-item img {
-  width: 100%;
-}
-
-.banner-slide-cover {
   object-fit: cover;
-  width: 100%;
-  display: flex;
-  flex-shrink: 0;
-  border-radius: .4rem;
+  min-width: 1055.5px;
 }
 
-.banner-slide .controls-slider {
-  bottom: 2rem;
-  right: 50rem;
+.carrosel.dragging {
+  cursor: grab;
+  scroll-behavior: auto;
+}
+
+.carrosel.dragging img {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1350px) {
+  main {
+    padding: 0 2rem 0 2rem;
+    width: 100%;
+  }
+
+  .carrosel {
+    width: 1275px;
+    overflow-x: auto;
+  }
+
+  .carrosel img {
+    min-width: 1275px;
+    width: 100%;
+  }
 }

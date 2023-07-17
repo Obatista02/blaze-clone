@@ -1,0 +1,72 @@
+.colecao-jogos {
+  margin-top: 4.7rem;
+  display: flex;
+  flex-direction: column;
+}
+.colecao-carrosel {
+  display: flex;
+  overflow: hidden;
+  margin-top: 2.6rem;
+  width: 105rem;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  border-radius: 4px;
+  margin-bottom: 4.7rem;
+}
+
+.colecao-carrosel img {
+  width: calc(100% / 6);
+  object-fit: cover;
+  margin-right: 2.5rem;
+}
+
+.colecao-titulo {
+  display: flex;
+  align-items: center;
+}
+
+.colecao-titulo h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+  padding-right: 2.6rem;
+}
+
+.colecao-titulo i {
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* .colecao-carrosel:last-child {
+  
+} */
+
+.colecao-titulo i:hover {
+  color: #fff;
+}
+
+@media (max-width:1400px) {
+  .colecao-jogos {
+    overflow: hidden;
+
+  }
+
+  .colecao-carrosel {
+    overflow-x: auto;
+
+  }
+
+  .colecao-carrosel img {
+    width: calc(100% / 4);
+
+  }
+}
+
+@media (max-width:600px) {
+  .colecao-carrosel img {
+    width: calc(100% / 2);
+
+  }
+}

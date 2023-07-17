@@ -5,6 +5,8 @@
 @import url('../css/componentes/box.css');
 @import url('../css/componentes/buscar.css');
 @import url('../css/componentes/subtipos.css');
+@import url('../css/componentes/navegueTema.css');
+
 
 /* LAYOUT */
 @import url('../css/layout/header.css');
@@ -13,13 +15,10 @@
 /* PAGES/ HOME */
 
 @import url('../css/pages/home/__banners.css');
+@import url('../css/pages/home/__colecao.css');
+@import url('../css/pages/home/__footer.css');
+
 
 
 /* RESET */
 @import url('../css/reset/reset.css');
-
-
-
-/* teste */
-
-@import url("../css/componentes/teste.css");

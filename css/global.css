@@ -3,33 +3,32 @@ html {
 }
 
 body {
-  background-color: #0F1923;
   color: #8C9099;
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
+}
+
+
+.backgroud-fixed {
+  background-attachment: fixed;
+  background-color: #0F1923;
+  background-size: cover;
   height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .container {
+  position: relative;
+  z-index: 2;
   display: flex;
-  justify-content: center;
-}
-
-main {
-  /* background-color: red; */
-  width: 55%;
-  max-width: 116rem;
-
+  flex-direction: column;
+  align-items: center;
 }
 
 .active {
   background-color: #fff;
   color: #fff;
 
-}
-
-@media(max-width:2000px) {
-  main {
-    right: 33rem;
-  }
 }

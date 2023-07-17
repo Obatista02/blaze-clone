@@ -1,6 +1,16 @@
-const carrosel = document.querySelector(".carrosel");
+const carrosel = document.querySelector(".colecao-carrosel"),
+arrowIcons = document.querySelectorAll(".colecao-titulo i"),
+firtImg = carrosel.querySelectorAll("img")[0];
+
 
 let isDragStar = false, prevPageX,prevScrollLeft;
+let firstImgWidth = firtImg.clientWidth + 25;
+
+arrowIcons.forEach(icon =>{
+  icon.addEventListener("click", () =>{
+    carrosel.scrollLeft += icon.id == "left" ? -firstImgWidth :firstImgWidth;
+  })
+});
 
 const dragStar = (e) =>{
   isDragStar = true;
@@ -21,6 +31,9 @@ const dragStop= ()=>{
 carrosel.addEventListener("mousedown", dragStar);
 carrosel.addEventListener("mousemove", dragging);
 carrosel.addEventListener("mouseup", dragStop);
+
+
+
 
 function init(){
 }

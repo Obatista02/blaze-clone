@@ -4,18 +4,16 @@
   border-bottom: .1rem solid #37404A;
   display: flex;
   height: 7rem;
-
   justify-content: space-evenly;
-  /* padding-right: 29.5rem; */
-  /* gap: 24rem; */
   position: fixed;
   width: 100%;
   z-index: 10;
+  padding-top: 2rem;
 }
 
 .logo {
   display: flex;
-
+  padding-bottom: 1rem;
 }
 
 .icon-resp {
@@ -159,11 +157,22 @@
   color: #fff;
 }
 
-/* @media (max-width:2000px) {
+@media (max-width:1350px) {
   .header-lateral {
-    right: 16.1rem;
+    display: none;
   }
-} */
+
+  .header {
+    padding: 0 2rem 0 2rem;
+    justify-content: space-between;
+  }
+
+  .link-icon {
+    background: url(../../assets/img/logo-icon-resp.svg) no-repeat;
+    width: 2.7rem;
+
+  }
+}
 
 @media(max-width:1400px) {
   .tres-barras {
@@ -211,5 +220,33 @@
   .header-lateral {
     display: none;
   }
+}
 
+@media (max-width:391px) {
+  .lista-item-coin {
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width:330px) {
+
+  .icon-list-item,
+  .depositar {
+    position: relative;
+    right: -3rem;
+    margin-left: .5rem;
+  }
+
+  .lista-item {}
+
+  .depositar {
+    margin-right: 0;
+    padding: 1rem 0.9rem;
+  }
+
+  .lista-item-coin {
+    align-items: center;
+    display: flex;
+  }
 }

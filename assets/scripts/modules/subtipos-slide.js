@@ -1,4 +1,4 @@
-const carrosel = document.querySelector(".carrosel");
+const carrosel = document.querySelector(".main-subtipos-list");
 
 let isDragStar = false, prevPageX,prevScrollLeft;
 
@@ -21,6 +21,8 @@ const dragStop= ()=>{
 carrosel.addEventListener("mousedown", dragStar);
 carrosel.addEventListener("mousemove", dragging);
 carrosel.addEventListener("mouseup", dragStop);
+
+
 
 function init(){
 }

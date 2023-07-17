@@ -1,7 +1,8 @@
 .main-subtipos-list {
   margin-top: 2.5rem;
   display: flex;
-  width: 78%;
+  width: 100%;
+  white-space: nowrap;
 
 }
 
@@ -13,13 +14,15 @@
   border-radius: 1rem;
   text-transform: capitalize;
   cursor: pointer;
-  flex-flow: row nowrap;
-}
 
-.item-main i {
-  padding-right: 1rem;
 }
 
 .buttonClicked {
   background-color: #F12C4C !important;
+}
+
+@media (max-width:1000px) {
+  .main-subtipos-list {
+    overflow-x: auto;
+  }
 }

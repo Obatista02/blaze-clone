@@ -1,3 +1,7 @@
+nav {
+  background-color: #0F1923;
+}
+
 .button-lateral {
   align-items: center;
   background-color: #F12C4C;
@@ -156,7 +160,7 @@ nav.menu-lateral.expandir {
   right: 1rem;
 }
 
-@media (max-width:1400px) {
+@media (max-width:1600px) {
   .menu-lateral {
     display: none;
   }

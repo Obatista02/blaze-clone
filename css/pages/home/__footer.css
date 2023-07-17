@@ -1,0 +1,108 @@
+.footer {
+  background-color: #1A242D;
+  width: 100%;
+  height: 100%;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15rem;
+}
+
+.list-item-footer {
+  border-bottom: 1px solid #39424C;
+  display: flex;
+  justify-self: center;
+  margin-top: 4.5rem;
+  padding-bottom: 2rem;
+}
+
+.item-footer {
+  margin-right: 25rem;
+}
+
+.icon-footer {
+  display: flex;
+}
+
+.icon-footer li {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.fa-brands {
+  width: 2.7rem;
+}
+
+.item-footer h2,
+li {
+  margin-bottom: 2rem;
+}
+
+.item-footer h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.item-footer li {
+  text-transform: capitalize;
+  font-size: 1.2;
+  font-weight: 400;
+}
+
+.item-footer li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.marcas-footer {
+  align-items: center;
+  border-bottom: 1px solid #39424C;
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 0 2rem 0 2rem;
+  padding-bottom: 2rem;
+
+}
+
+.marcas-footer img {
+  margin-right: 8.5rem;
+  color: #7C8289;
+}
+
+.exe {
+  width: 4rem;
+  height: 5rem;
+}
+
+.footer-texto {
+  align-items: center;
+  border-bottom: 1px solid #39424C;
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  width: 56%;
+
+}
+
+.footer-texto img {
+  margin-right: 6rem;
+}
+
+.footer-txt {
+  font-size: 1.3rem;
+  line-height: -15;
+}
+
+.footer-txt span {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
